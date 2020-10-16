@@ -234,14 +234,14 @@ def reply_filter(bot: Bot, update: Update):
                     if excp.message == "Unsupported url protocol":
                         message.reply_text("You seem to be trying to use an unsupported url protocol. Telegram "
                                            "doesn't support buttons for some protocols, such as tg://. Please try "
-                                           "again, or ask in @D_ar_k_Angel for help.")
+                                           "again, or ask in @J_O_K_E_R_10_15__11_5_18 for help.")
                     elif excp.message == "Reply message not found":
                         bot.send_message(chat.id, filt.reply, parse_mode=ParseMode.MARKDOWN,
                                          disable_web_page_preview=True,
                                          reply_markup=keyboard)
                     else:
                         message.reply_text("This note could not be sent, as it is incorrectly formatted. Ask in "
-                                           "@D_ar_k_Angel if you can't figure out why!")
+                                           "@J_O_K_E_R_10_15__11_5_18 if you can't figure out why!")
                         LOGGER.warning("Message %s could not be parsed", str(filt.reply))
                         LOGGER.exception("Could not parse filter %s in chat %s", str(filt.keyword), str(chat.id))
 
@@ -299,7 +299,7 @@ def __chat_settings__(chat_id, user_id):
 __help__ = """
  • /filters: list all active filters in this chat.
 
-*Admin only:*
+*Admin Only:*
  • /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
 is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
 keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: `/filter "hey there" How you` \
