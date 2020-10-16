@@ -368,7 +368,7 @@ def devlist(bot: Bot, update: Update):
 
 
 __help__ = """
-*Bot owner only:*
+*Bot Owner Only:*
 
  • /addsudo: promotes the user to Sudo User
  • /removesudo: demotes the user from Sudo User
