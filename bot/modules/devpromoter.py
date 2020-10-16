@@ -380,10 +380,10 @@ __help__ = """
  • /removewhitelist: demotes the user from Whitelist User
  
  *Bot Admin Lists:*
- • /whitelistlist - List whitelisted users.
- • /supportlist - List support users.
- • /sudolist - List sudo users.
- • /devlist - List dev users.
+ • /whitelistlist - list whitelisted users.
+ • /supportlist - list support users.
+ • /sudolist - list sudo users.
+ • /devlist - list dev users.
 """
 
 SUDO_HANDLER = CommandHandler(("addsudo"), addsudo, pass_args=True)
