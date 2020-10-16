@@ -132,7 +132,7 @@ def connect_chat(bot: Bot, update: Update, args: List[str]):
                 text = "_You are connected to *{}* (`{}`)_".format(connectedchat.title, conn)
                 buttons.append(InlineKeyboardButton(text="🔌 DISCONNECT", callback_data="connect_disconnect"))
             else:
-                text = "_Write the chat ID or tag to connect!_"
+                text = "_Write The Chat ID Or Tag To Connect!_"
             if gethistory:
                 text += "\n\n*Connection history:*\n"
                 text += "╒═══「 *Info* 」\n"
