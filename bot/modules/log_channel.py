@@ -174,11 +174,12 @@ if is_module_loaded(FILENAME):
 
 
     __help__ = """
-    *Admin only:*
+    *Admin Only:*
     • /logchannel: get log channel info
     • /setlog: set the log channel.
     • /unsetlog: unset the log channel.
-    *Setting the log channel is done by:*
+    
+    *Setting The Log Channel Is Done By:*
     • adding the bot to the desired channel (as an admin!)
     • sending /setlog in the channel
     • forwarding the /setlog to the group
