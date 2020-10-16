@@ -253,9 +253,11 @@ def stats(bot: Bot, update: Update):
 __help__ = """
  • /id: get the current group id. If used by replying to a message, gets that user's id.
  • /info: get information about a user.
-*Sudo/Owner only:*
+ 
+*Sudo/Owner Only:*
 • /Stats: check bot's stats
 • /chatlist: get chatlist
+
 *Users:*
 • /slist Gives a list of sudo and support users
 """
