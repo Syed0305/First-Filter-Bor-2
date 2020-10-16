@@ -284,12 +284,12 @@ def connect_button(bot: Bot, update: Update):
         connect_chat(bot, update, [])
 
 __help__ = """
- • /connect: connect a chat (Can be done in a group by /connect or /connect <chat id> in PM)
+ • /connect: connect a chat (can be done in a group by /connect or /connect <chat id> in PM)
  • /connection: list connected chats
  • /disconnect: disconnect from a chat
  • /helpconnect: list available commands that can be done remotely
 
-*Admin only:*
+*Admin Only:*
  • /allowconnect <yes/no>: allow a user to connect to a chat
 """
 
